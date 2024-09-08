@@ -34,4 +34,4 @@ for ciudad_idx, ciudad in enumerate(temperaturas):
             print(f"    {dia_semana}: {temp}°F")
         promedio = suma_temperaturas / len(semana)
         print(f"  Promedio de la semana {semana_idx + 1}: {promedio:.2f}°F")
-    print()  # Línea en blanco para separar ciudades
+    print()
